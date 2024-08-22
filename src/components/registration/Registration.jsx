@@ -1,7 +1,7 @@
 const Registration = () => {
-  
   return (
     <>
+      this is registation
       <div className="">
         <div className="hero min-h-svh">
           <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">

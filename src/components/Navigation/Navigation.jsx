@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
-import logo from "../../assets/nav.png";
+import logo from "../../assets/logo.jpg";
 
 const Navigation = () => {
   const link = (

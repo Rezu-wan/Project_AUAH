@@ -1,14 +1,19 @@
 // import logo from "../../assets/";
 import logo from "../../assets/baust.png";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
-      <div className="bg-base-200">
-        <footer className="footer container mx-auto text-base-content p-10">
+      <div className="bg-[#1c5aaa]">
+        <div className="border-2 border-[hsl(73,72%,45%)]"></div>
+
+        <footer className="footer container mx-auto  p-10 text-xl font-bold text-[#000000]">
           <aside>
-            <div className="w-36">
-              <img src={logo} alt="" />
-            </div>
+            <Link to={"/"}>
+              <div className="w-36">
+                <img src={logo} alt="" />
+              </div>
+            </Link>
             <p>
               ACME Industries Ltd.
               <br />
@@ -36,8 +41,9 @@ const Footer = () => {
             <a className="link link-hover">Cookie policy</a>
           </nav>
         </footer>
+        <div className="border-2 border-[hsl(73,72%,45%)]"></div>
         {/* --------------------  */}
-        <footer className="footer footer-center bg-base-300 text-base-content p-4">
+        <footer className="footer footer-center bg-[#2381c0] text-base-content p-4">
           <aside>
             <p>
               Copyright © {new Date().getFullYear()} - All right reserved by

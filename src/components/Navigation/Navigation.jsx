@@ -8,7 +8,7 @@ const Navigation = () => {
         to="/"
         className={({ isActive }) =>
           `text-xl font-bold ${
-            isActive ? "text-green-400 underline " : "text-[#000]"
+            isActive ? "text-[#3454ac] underline " : "text-[#000]"
           }`
         }
       >
@@ -18,36 +18,46 @@ const Navigation = () => {
         to="/MillStatus"
         className={({ isActive }) =>
           `text-xl font-bold ${
-            isActive ? "text-green-500 underline " : "text-[#000]"
+            isActive ? "text-[#3454ac] underline " : "text-[#000]"
           }`
         }
       >
         Meals
       </NavLink>
       <NavLink
+        to="/Login"
+        className={({ isActive }) =>
+          `text-xl font-bold ${
+            isActive ? "text-[#3454ac] underline " : "text-[#000]"
+          }`
+        }
+      >
+        Login
+      </NavLink>
+      {/* <NavLink
         to="/Registration"
         className={({ isActive }) =>
           `text-xl font-bold ${
-            isActive ? "text-green-500 underline " : "text-[#000]"
+            isActive ? "text-[#3454ac] underline " : "text-[#000]"
           }`
         }
       >
         Registration
-      </NavLink>
+      </NavLink> */}
       <NavLink
-        to="/office"
+        to="/Office"
         className={({ isActive }) =>
           `text-xl font-bold ${
-            isActive ? "text-green-600 underline " : "text-[#000]"
+            isActive ? "text-[#3454ac] underline  " : "text-[#000]"
           }`
         }
       >
-        Office
+        <span>Office Login</span>
       </NavLink>
     </>
   );
   return (
-    <div className="bg-gradient-to-r from-sky-500 to-indigo-500">
+    <div className="bg-gradient-to-r from-[#22882a] to-[#53bcdb]">
       <div className="navbar container mx-auto py-4">
         <div className="navbar-start">
           <div className="dropdown">
@@ -76,10 +86,12 @@ const Navigation = () => {
           </div>
           <Link to={"/"}>
             <div className="flex items-end">
-              <img className="w-20" src={logo} alt="" />
-              <p className="btn btn-ghost text-4xl font-bold hover:bg-white">
+              <img className="md:w-20 w-14" src={logo} alt="" />
+              <p className="btn btn-ghost md:text-4xl font-bold hover:bg-transparent">
                 Abbus Uddin Ahmed Hall
-                <span className="text-[#83ff78d7] text-xl mt-1">(BAUST)</span>
+                <span className="text-[#57f80cd7] md:text-xl md:mt-1">
+                  (BAUST)
+                </span>
               </p>
             </div>
           </Link>

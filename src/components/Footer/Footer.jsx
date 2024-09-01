@@ -1,29 +1,24 @@
 // import logo from "../../assets/";
-import logo from "../../assets/logo.jpg";
+import logo from "../../image/logo/logo.png";
 import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
       <div className="bg-[#1c5aaa]">
         <div className="border-2 border-[hsl(73,72%,45%)]"></div>
-
-        <footer className="footer container mx-auto  p-10 text-xl font-bold text-[#000000]">
+        <footer className="footer container mx-auto  p-10 text-xl font-bold text-[#bee091]">
           <aside>
             <Link to={"/"}>
               <div className="w-36">
                 <img src={logo} alt="" />
               </div>
             </Link>
-            <p>
-              ACME Industries Ltd.
-              <br />
-              Providing reliable tech since 1992
-            </p>
+            <p className="text-2xl text-[#8f9afc]">Abbus Uddin Ahmed Hall</p>
           </aside>
           <nav>
-            <h6 className="footer-title">Services</h6>
-            <a className="link link-hover">Branding</a>
-            <a className="link link-hover">Design</a>
+            <h6 className="footer-title">Others Hall</h6>
+            <a className="link link-hover">jikrol Hall</a>
+            <a className="link link-hover">tara mon bi bi</a>
             <a className="link link-hover">Marketing</a>
             <a className="link link-hover">Advertisement</a>
           </nav>
@@ -45,9 +40,9 @@ const Footer = () => {
         {/* --------------------  */}
         <footer className="footer footer-center bg-[#2381c0] text-base-content p-4">
           <aside>
-            <p>
-              Copyright © {new Date().getFullYear()} - All right reserved by
-              ACME Industries Ltd
+            <p className="text-xl font-bold text-[#a01818]">
+              Copyright ©{" "}
+              <span className="text-[#37ebf1]">Abbus Uddin Ahmed Hall</span>
             </p>
           </aside>
         </footer>

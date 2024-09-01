@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
-import logo from "../../assets/logo.jpg";
+import logo from "../../image/logo/logo.png";
 
 const Navigation = () => {
   const link = (
@@ -14,7 +14,7 @@ const Navigation = () => {
       >
         Home
       </NavLink>
-      <NavLink
+      {/* <NavLink
         to="/MillStatus"
         className={({ isActive }) =>
           `text-xl font-bold ${
@@ -23,7 +23,7 @@ const Navigation = () => {
         }
       >
         Meals
-      </NavLink>
+      </NavLink> */}
       <NavLink
         to="/Login"
         className={({ isActive }) =>

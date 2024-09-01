@@ -1,4 +1,10 @@
+import { useState } from "react";
+
 const Login = () => {
+  const [isLonin, setLogin] = useState(false);
+  const handleLogin = () => {
+    setLogin(true);
+  };
   return (
     <div>
       <div className="border-2 border-[hsl(73,76%,52%)]"></div>
@@ -42,7 +48,9 @@ const Login = () => {
                 </label>
               </div>
               <div className="form-control mt-6">
-                <button className="btn btn-info text-xl">Login</button>
+                <button onClick={handleLogin} className="btn btn-info text-xl">
+                  Login
+                </button>
               </div>
             </form>
           </div>

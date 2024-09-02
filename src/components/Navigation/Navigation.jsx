@@ -88,7 +88,7 @@ const Navigation = () => {
             <div className="flex items-end">
               <img className="md:w-20 w-14" src={logo} alt="" />
               <p className="btn btn-ghost md:text-4xl font-bold hover:bg-transparent">
-                Abbus Uddin Ahmed Hall
+                Abbas Uddin Ahmed Hall
                 <span className="text-[#57f80cd7] md:text-xl md:mt-1">
                   (BAUST)
                 </span>

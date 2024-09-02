@@ -38,56 +38,56 @@ const Home = () => {
         ))}
       </section>
 
-      <section className="border-t-4  border-[#effa56] bg-[#262e7c]">
-        <div className="container mx-auto flex justify-between gap-10 py-10">
+      <section className="px-5 border-t-4  border-[#effa56] bg-[#262e7c]">
+        <div className="container mx-auto flex flex-col w-full justify-between gap-10 py-10 md:flex-row">
           {/* card-1  */}
-          <div className="card bg-base-100 shadow-xl">
+          <div className="w-full card bg-base-100 shadow-xl">
             <figure className="px-10 pt-10">
               <img
-                src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                src="https://im.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
                 alt="Shoes"
                 className="rounded-xl"
               />
             </figure>
             <div className="card-body items-center text-center">
-              <h2 className="card-title">Hall Propost</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <h2 className="card-title">Hall Provost</h2>
+              {/* <p>If a dog chews shoes whose shoes does he choose?</p> */}
               <div className="card-actions">
-                <button className="btn btn-primary">Buy Now</button>
+                {/* <button className="btn btn-primary">Buy Now</button> */}
               </div>
             </div>
           </div>
           {/* card-2  */}
-          <div className="card bg-base-100  shadow-xl">
+          <div className="card bg-base-100 w-full shadow-xl">
             <figure className="px-10 pt-10">
               <img
-                src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                src="https://i.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
                 alt="Shoes"
                 className="rounded-xl"
               />
             </figure>
             <div className="card-body items-center text-center">
-              <h2 className="card-title">Assistant Propost</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <h2 className="card-title">Assistant Provost</h2>
+              {/* <p>If a dog chews shoes whose shoes does he choose?</p> */}
               <div className="card-actions">
-                <button className="btn btn-primary">Buy Now</button>
+                {/* <button className="btn btn-primary">Buy Now</button> */}
               </div>
             </div>
           </div>
           {/* card-3  */}
-          <div className="card bg-base-100  shadow-xl">
+          <div className="card bg-base-100  shadow-xl w-full">
             <figure className="px-10 pt-10">
               <img
-                src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                src="https://im.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
                 alt="Shoes"
                 className="rounded-xl"
               />
             </figure>
             <div className="card-body items-center text-center">
-              <h2 className="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <h2 className="card-title">Hall Manager</h2>
+              {/* <p>If a dog chews shoes whose shoes does he choose?</p> */}
               <div className="card-actions">
-                <button className="btn btn-primary">Buy Now</button>
+                {/* <button className="btn btn-primary">Buy Now</button> */}
               </div>
             </div>
           </div>

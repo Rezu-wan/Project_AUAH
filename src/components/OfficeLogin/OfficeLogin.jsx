@@ -1,4 +1,7 @@
 const OfficeLogin = () => {
+  // function refreshPage() {
+  //   window.location.reload(false);
+  // }
   return (
     <div>
       <div className="border-2 border-[hsl(73,76%,52%)]"></div>
@@ -344,12 +347,15 @@ const OfficeLogin = () => {
               {/* Submit and Reset Buttons */}
               <div className="form-control mt-6">
                 <div className="flex w-full justify-between gap-4">
-                  <a
-                    href=""
+                  <button
+                    onClick={() => {
+                      window.location.reload(false);
+                    }}
                     className="btn bg-[#fc4a4a]  btn-secondary w-1/2 text-xl"
                   >
-                    <button>Reset</button>
-                  </a>
+                    Reset
+                  </button>
+
                   <button className="btn btn-accent bg-[#12f16f] w-1/2 text-xl">
                     <span className="font-bold"> Submit</span>
                   </button>
